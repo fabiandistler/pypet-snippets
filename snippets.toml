@@ -5,19 +5,6 @@ tags = [ "git", "version-control",]
 created_at = "2025-06-17T12:28:20.688949"
 updated_at = "2025-06-17T12:28:20.688949"
 
-[20250617123846]
-command = "ls"
-tags = []
-created_at = "2025-06-17T12:38:46.828622"
-updated_at = "2025-06-17T12:41:36.170849"
-
-[20250617130338082911]
-command = "ls -la"
-description = "List all files with details"
-tags = [ "files", "system",]
-created_at = "2025-06-17T13:03:38.082982+00:00"
-updated_at = "2025-06-17T13:03:38.082982+00:00"
-
 [20250617130338339659]
 command = "git status"
 description = "Show git working tree status"
@@ -46,48 +33,3 @@ tags = []
 created_at = "2025-06-17T14:31:58.168050+00:00"
 updated_at = "2025-06-17T14:31:58.168050+00:00"
 
-[20250625145758344934]
-command = "echo 'Hello from pypet\\!'"
-description = "Test snippet for clipboard"
-tags = [ "test", "demo",]
-created_at = "2025-06-25T14:57:58.344989+00:00"
-updated_at = "2025-06-25T14:57:58.344989+00:00"
-
-[20250625145838155900]
-command = "docker run -p {port}:80 {image}"
-description = "Run Docker container"
-tags = [ "docker",]
-created_at = "2025-06-25T14:58:38.155951+00:00"
-updated_at = "2025-06-25T14:58:38.155951+00:00"
-
-[20250625151657447359]
-command = "echo sync test"
-description = "Test snippet for sync"
-tags = [ "test", "sync",]
-created_at = "2025-06-25T15:16:57.447389+00:00"
-updated_at = "2025-06-25T15:16:57.447389+00:00"
-
-[20250625145758344934.parameters]
-
-[20250625151657447359.parameters]
-
-[20250617143158168015.parameters.user]
-name = "user"
-description = "Username"
-
-[20250617143158168015.parameters.host]
-name = "host"
-description = "Target host"
-
-[20250617143158168015.parameters.port]
-name = "port"
-default = "22"
-description = "SSH port"
-
-[20250625145838155900.parameters.port]
-name = "port"
-description = "Host port"
-
-[20250625145838155900.parameters.image]
-name = "image"
-description = "Docker image"
