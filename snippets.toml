@@ -60,7 +60,16 @@ tags = [ "docker",]
 created_at = "2025-06-25T14:58:38.155951+00:00"
 updated_at = "2025-06-25T14:58:38.155951+00:00"
 
+[20250625151657447359]
+command = "echo sync test"
+description = "Test snippet for sync"
+tags = [ "test", "sync",]
+created_at = "2025-06-25T15:16:57.447389+00:00"
+updated_at = "2025-06-25T15:16:57.447389+00:00"
+
 [20250625145758344934.parameters]
+
+[20250625151657447359.parameters]
 
 [20250617143158168015.parameters.user]
 name = "user"
