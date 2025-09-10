@@ -19,3 +19,20 @@ tags = []
 created_at = "2025-06-17T14:31:58.168050+00:00"
 updated_at = "2025-06-17T14:31:58.168050+00:00"
 
+[20250818145747334420]
+command = "echo \\\"alias <alias>='<command>'\\\" >> ~/.bashrc && source ~/.bashrc"
+description = "Create new alias"
+tags = []
+created_at = "2025-08-18T14:57:47.334533+00:00"
+updated_at = "2025-08-18T14:57:47.334533+00:00"
+
+[20250910075739759836]
+command = "basic-memory sync"
+description = "test"
+tags = []
+created_at = "2025-09-10T07:57:39.759935+00:00"
+updated_at = "2025-09-10T07:57:39.759935+00:00"
+
+[20250818145747334420.parameters]
+
+[20250910075739759836.parameters]
