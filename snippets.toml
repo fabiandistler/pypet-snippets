@@ -20,19 +20,21 @@ created_at = "2025-06-17T14:31:58.168050+00:00"
 updated_at = "2025-06-17T14:31:58.168050+00:00"
 
 [20250818145747334420]
-command = "echo \\\"alias <alias>='<command>'\\\" >> ~/.bashrc && source ~/.bashrc"
+command = "echo alias {alias}='{command}' >> ~/.bashrc && source ~/.bashrc"
 description = "Create new alias"
 tags = []
 created_at = "2025-08-18T14:57:47.334533+00:00"
 updated_at = "2025-08-18T14:57:47.334533+00:00"
 
-[20250910075739759836]
-command = "basic-memory sync"
-description = "test"
+[20250910080616299953]
+command = "echo hello {name}"
+description = "Test snippet with parameter"
 tags = []
-created_at = "2025-09-10T07:57:39.759935+00:00"
-updated_at = "2025-09-10T07:57:39.759935+00:00"
+created_at = "2025-09-10T08:06:16.300018+00:00"
+updated_at = "2025-09-10T08:06:16.300018+00:00"
 
 [20250818145747334420.parameters]
 
-[20250910075739759836.parameters]
+[20250910080616299953.parameters.name]
+name = "name"
+description = "The name to greet"
