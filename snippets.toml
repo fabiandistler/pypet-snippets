@@ -1,5 +1,6 @@
 [20251028141057766365]
-command = "claude mcp add serena -- uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context ide-assistant --project \"$(pwd)\""
+command = "claude mcp add serena -- uvx --from git+https://github.com/oraios/serena //
+serena start-mcp-server --context ide-assistant --project \"$(pwd)\""
 tags = []
 created_at = "2025-10-28T14:10:57.766424+00:00"
 updated_at = "2025-10-28T14:10:57.766424+00:00"
