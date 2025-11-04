@@ -1,40 +1,7 @@
-[20250617130338592022]
-command = "docker ps"
-description = "List running containers"
-tags = [ "docker", "container",]
-created_at = "2025-06-17T13:03:38.592133+00:00"
-updated_at = "2025-06-17T13:03:38.592133+00:00"
-
-[20250617130338915313]
-command = "df -h"
-description = "Show disk space usage"
-tags = [ "system", "disk",]
-created_at = "2025-06-17T13:03:38.915364+00:00"
-updated_at = "2025-06-17T13:03:38.915364+00:00"
-
-[20250617143158168015]
-command = "ssh {user}@{host} -p {port=22}"
-description = "SSH Connection"
+[20251028141057766365]
+command = "claude mcp add serena -- uvx --from git+https://github.com/oraios/serena serena start-mcp-server --context ide-assistant --project \"$(pwd)\""
 tags = []
-created_at = "2025-06-17T14:31:58.168050+00:00"
-updated_at = "2025-06-17T14:31:58.168050+00:00"
+created_at = "2025-10-28T14:10:57.766424+00:00"
+updated_at = "2025-10-28T14:10:57.766424+00:00"
 
-[20250818145747334420]
-command = "echo alias {alias}='{command}' >> ~/.bashrc && source ~/.bashrc"
-description = "Create new alias"
-tags = []
-created_at = "2025-08-18T14:57:47.334533+00:00"
-updated_at = "2025-08-18T14:57:47.334533+00:00"
-
-[20250910080616299953]
-command = "echo hello {name}"
-description = "Test snippet with parameter"
-tags = []
-created_at = "2025-09-10T08:06:16.300018+00:00"
-updated_at = "2025-09-10T08:06:16.300018+00:00"
-
-[20250818145747334420.parameters]
-
-[20250910080616299953.parameters.name]
-name = "name"
-description = "The name to greet"
+[20251028141057766365.parameters]
