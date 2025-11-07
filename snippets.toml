@@ -10,3 +10,18 @@ description = "Install tool from lokal with automatic updates on change"
 tags = [ "uv",]
 created_at = "2025-11-04T12:03:56.163995+00:00"
 updated_at = "2025-11-04T12:03:56.163995+00:00"
+
+[20251107095239798469]
+command = "unison {path1} {path2} -auto -batch"
+description = "Sync dir/file"
+tags = []
+created_at = "2025-11-07T09:52:39.798500+00:00"
+updated_at = "2025-11-07T09:52:39.798500+00:00"
+
+[20251107095239798469.parameters.path1]
+name = "path1"
+description = "First path"
+
+[20251107095239798469.parameters.path2]
+name = "path2"
+description = "Second Path"
