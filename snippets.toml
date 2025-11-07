@@ -18,6 +18,13 @@ tags = []
 created_at = "2025-11-07T09:52:39.798500+00:00"
 updated_at = "2025-11-07T09:52:39.798500+00:00"
 
+[20251107103951761279]
+command = "echo 'alias {alias}={content}' >> .bashrc"
+description = "Create Alias"
+tags = []
+created_at = "2025-11-07T10:39:51.761394+00:00"
+updated_at = "2025-11-07T10:39:51.761394+00:00"
+
 [20251107095239798469.parameters.path1]
 name = "path1"
 description = "First path"
@@ -25,3 +32,11 @@ description = "First path"
 [20251107095239798469.parameters.path2]
 name = "path2"
 description = "Second Path"
+
+[20251107103951761279.parameters.alias]
+name = "alias"
+description = "Alias to bind"
+
+[20251107103951761279.parameters.content]
+name = "content"
+description = "Content of Alias"
