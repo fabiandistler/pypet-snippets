@@ -34,7 +34,7 @@ created_at = "2025-11-07T15:29:56.222084+00:00"
 updated_at = "2025-11-07T15:29:56.222084+00:00"
 
 [20251109130800664559]
-command = "kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.1/deploy/static/provider/cloud/deploy.yaml"
+command = "echo kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/controller-v1.8.1/deploy/static/provider/cloud/deploy.yaml"
 description = "test"
 tags = []
 created_at = "2025-11-09T13:08:00.664816+00:00"
