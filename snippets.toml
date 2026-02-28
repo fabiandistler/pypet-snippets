@@ -12,19 +12,19 @@ created_at = "2025-11-04T12:03:56.163995+00:00"
 updated_at = "2025-11-04T12:03:56.163995+00:00"
 
 [20251107095239798469]
-command = "unison {path1} {path2} -auto -batch"
+command = "unison {{path1}} {{path2}} -auto -batch"
 description = "Sync dir/file"
 tags = []
 alias = "jj"
 created_at = "2025-11-07T09:52:39.798500+00:00"
-updated_at = "2025-11-08T11:25:09.894366+00:00"
+updated_at = "2026-02-28T21:20:22.748589+00:00"
 
 [20251107103951761279]
-command = "echo 'alias {alias}={content}' >> .bashrc"
+command = "echo 'alias {{alias}}={{content}}' >> .bashrc"
 description = "Create Alias"
 tags = []
 created_at = "2025-11-07T10:39:51.761394+00:00"
-updated_at = "2025-11-07T10:39:51.761394+00:00"
+updated_at = "2026-02-28T21:20:22.751876+00:00"
 
 [20251107152956221765]
 command = "git branch --merged | grep -v \"\\*\\|main\\|master\" | xargs git branch -d"
@@ -46,6 +46,12 @@ description = "Merge changes from main in"
 tags = []
 created_at = "2025-11-14T14:45:41.576358+00:00"
 updated_at = "2025-11-14T14:45:41.576358+00:00"
+
+[20260228212423393786]
+command = "echo {{msg}}"
+tags = []
+created_at = "2026-02-28T21:24:23.394074+00:00"
+updated_at = "2026-02-28T21:24:23.394074+00:00"
 
 [20251107095239798469.parameters.path1]
 name = "path1"
