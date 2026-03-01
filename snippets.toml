@@ -47,6 +47,13 @@ tags = []
 created_at = "2025-11-14T14:45:41.576358+00:00"
 updated_at = "2025-11-14T14:45:41.576358+00:00"
 
+[20260301155618150007]
+command = "uv clean"
+description = "Command from history: uv clean..."
+tags = []
+created_at = "2026-03-01T15:56:18.150090+00:00"
+updated_at = "2026-03-01T15:56:18.150090+00:00"
+
 [20251107095239798469.parameters.path1]
 name = "path1"
 description = "First path"
