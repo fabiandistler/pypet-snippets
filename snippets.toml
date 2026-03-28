@@ -69,6 +69,13 @@ tags = [ "git", "fetch", "merge", "main",]
 created_at = "2026-03-28T19:37:15.244759+00:00"
 updated_at = "2026-03-28T19:37:15.244759+00:00"
 
+[20260328193836558021]
+command = "ln -s {{source}} {{destination}}"
+description = "Create a symbolic link (symlink) to a file or directory."
+tags = [ "files", "symlink", "link",]
+created_at = "2026-03-28T19:38:36.558100+00:00"
+updated_at = "2026-03-28T19:38:36.558100+00:00"
+
 [20251107095239798469.parameters.path1]
 name = "path1"
 description = "First path"
@@ -84,3 +91,11 @@ description = "Alias to bind"
 [20251107103951761279.parameters.content]
 name = "content"
 description = "Content of Alias"
+
+[20260328193836558021.parameters.source]
+name = "source"
+description = "The original file or directory to link to."
+
+[20260328193836558021.parameters.destination]
+name = "destination"
+description = "The name of the symbolic link to create."
