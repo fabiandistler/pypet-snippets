@@ -62,6 +62,13 @@ alias = "claw"
 created_at = "2026-03-09T07:23:30.399025+00:00"
 updated_at = "2026-03-09T07:23:30.399025+00:00"
 
+[20260328193715244689]
+command = "git fetch origin main && git merge origin/main"
+description = "Fetches the latest changes from the 'main' branch of the 'origin' remote and merges them into the current branch."
+tags = [ "git", "fetch", "merge", "main",]
+created_at = "2026-03-28T19:37:15.244759+00:00"
+updated_at = "2026-03-28T19:37:15.244759+00:00"
+
 [20251107095239798469.parameters.path1]
 name = "path1"
 description = "First path"
